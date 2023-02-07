@@ -16,12 +16,19 @@ body{
 
 article{
     background-image: radial-gradient(mediumpurple, lightgreen);
+    border-radius: .75em;
+    padding: auto;
+    box-shadow: 3px 4px 5px purple;
 }
 
 header{
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
     text-decoration-color: whitesmoke;
+    border-radius: .75em;
+    padding: auto;
+    box-shadow: 3px 4px 5px purple;
+    text-shadow: 3px 4px 5px green;
 }
 
 a{
@@ -31,3 +38,16 @@ a{
 a:hover{
     text-decoration-line: underline;
 }
+
+img{
+    display: block;
+    height: 20%;
+    border-radius: .75em;
+    margin-bottom: auto;
+    box-shadow: 3px 4px 5px purple;
+}
+
+.subheading{
+    border-bottom: solid 3px blue;
+}
+
